@@ -34,6 +34,13 @@ machine-specific; clone the code and configure the target machine's own API
 secret separately.
 
 The built-in Web interface can launch a session against any registered
-workspace and export that session's log from its header menu. Headless and SDK
-profiles are also available through the same `dsh` CLI, but this machine's
-custom model route is currently configured only for the Web profile.
+workspace and export that session's log from its header menu. This machine's
+headless profile uses the same model route and can run a one-shot task:
+
+```powershell
+& 'E:\Such_Proj\Other\DeepSeekHarness\run-task.ps1' 'Summarize this repository.'
+```
+
+That command emits JSON lines and uses the Harness checkout as its working
+directory. The SDK and ACP profiles are also available through `dsh`; their
+machine-specific model routes have not been configured here.
