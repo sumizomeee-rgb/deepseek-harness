@@ -2650,6 +2650,9 @@ importers:
       '@deepseek-ai/schemastery':
         specifier: link:../../../vendor/schemastery
         version: link:../../../vendor/schemastery
+      '@sumizomeee/dsh-haru-theme':
+        specifier: workspace:*
+        version: link:../../client/ui-haru-theme
       commander:
         specifier: ^15.0.0
         version: 15.0.0
@@ -3654,6 +3657,15 @@ importers:
       react-dom:
         specifier: ^18.2.0
         version: 18.3.1(react@18.3.1)
+
+  packages/client/ui-haru-theme:
+    devDependencies:
+      '@deepseek-ai/cordis':
+        specifier: workspace:~
+        version: link:../../../vendor/cordis
+      '@deepseek-ai/dsh-client-ui-theme':
+        specifier: workspace:*
+        version: link:../ui-theme
 
   packages/client/ui-input-trigger:
     devDependencies:
@@ -12593,6 +12605,9 @@ importers:
       '@deepseek-ai/dsh-web-app':
         specifier: workspace:*
         version: link:../../bundle/web-app
+      '@sumizomeee/dsh-haru-theme':
+        specifier: workspace:*
+        version: link:../../client/ui-haru-theme
       '@types/js-yaml':
         specifier: ^4.0.9
         version: 4.0.9

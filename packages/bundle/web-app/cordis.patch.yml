@@ -217,6 +217,9 @@
     - id: ui-theme
       name: '@deepseek-ai/dsh-client-ui-theme'
 
+    - id: ui-haru-theme
+      name: '@sumizomeee/dsh-haru-theme'
+
     - id: locale
       name: '@deepseek-ai/dsh-client-locale'
 

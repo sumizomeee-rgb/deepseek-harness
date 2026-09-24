@@ -1,0 +1,4 @@
+[submodule "packages/client/ui-haru-theme"]
+	path = packages/client/ui-haru-theme
+	url = https://github.com/sumizomeee-rgb/dsh-haru-theme.git
+	branch = main
